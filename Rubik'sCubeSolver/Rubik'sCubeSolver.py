@@ -360,19 +360,8 @@ class CubeSolverApp:
             else:
                 self.canvas.coords(self.canvas_windows[widget], sx, sy)
                 self.canvas.itemconfig(self.canvas_windows[widget], width=sw, height=sh)
-'''
-def main():
-    root = tk.Tk()
-    root.geometry("800x600")
-    root.minsize(600, 400)
-    app = CubeSolverApp(root)
-    root.(3000, app.darkmode)
-    root.mainloop()
 
 
-main()'''
-
-import tkinter as tk
 
 def main():
     root = tk.Tk()
