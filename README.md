@@ -4,7 +4,7 @@
 ---
 
 
-You can find the main file in Rubik\'sCubeSolver/Rubik\'sCubeSolver.py
+You can find the main file in `Rubik'sCubeSolver/Rubik'sCubeSolver.py`
 ---
 
 | Dependencies |
