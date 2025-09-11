@@ -332,10 +332,6 @@ class CubeSolverApp:
     def redraw_ui(self):
         # Create or move canvas windows
         
-        ####### this is a not do not forget that you need to finish this ############
-        
-        ######### the note is above here ###########
-        
         for widget, x, y, w, h in self.widgets:
             if not widget.winfo_exists():
                 continue
