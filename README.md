@@ -4,11 +4,11 @@
 ---
 
 ## Files
-- You can find the main executable file in `Rubik'sCubeSolver/Rubik'sCubeSolver.py`.
-- The file `Rubik'sCubeSolver/Rubik'sCubeSolverMode.txt` contains the the mode of the GUI, *light*, *dark*, or *auto*.
+- You can find the main executable file in [`Rubik'sCubeSolver/Rubik'sCubeSolver.py`](Rubik'sCubeSolver/Rubik'sCubeSolver.py).
+- The file [`Rubik'sCubeSolver/Rubik'sCubeSolverMode.txt`](Rubik'sCubeSolver/Rubik'sCubeSolverMode.txt) contains the the mode of the GUI, *light*, *dark*, or *auto*.
 
 --- 
-## Dependencies
+## Dependencies 
 
 | Modules |
 |--------------|
