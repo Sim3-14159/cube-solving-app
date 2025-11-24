@@ -36,7 +36,7 @@ DB = (33, 52)
 
 EDGES = (UL, UF, UR, UB, FL, FR, BL, BR, DL, DF, DR, DB)
 
-storage_file = os.path.dirname(os.path.abspath(__file__)) + "Rubik'sCubeSolverMode.txt"
+storage_file = os.path.dirname(os.path.abspath(__file__)) + "/Rubik'sCubeSolverMode.txt"
 # if not os.getcwd().endswith("Rubik'sCubeSolver"):
 #     os.chdir(os.path.expanduser('~'))
 #     os.chdir("Rubik'sCubeSolver")
