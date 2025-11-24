@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import messagebox as msgBx
 import kociemba
 import time
+import sys
 import os
 from PIL import Image, ImageTk
 
@@ -365,7 +366,8 @@ def main():
     root.geometry("800x600")
     root.minsize(600, 400)
     
-    icon = Image.open("RubiksCube.jpg")
+    path = os.path.dirname(os.path.abspath(__file__))
+    icon = Image.open(path + "/RubiksCube.jpg")
     icon = ImageTk.PhotoImage(icon)
     root.iconphoto(True, icon)
 
