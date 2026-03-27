@@ -3,6 +3,8 @@
 ### This repository contains my 3x3 Rubik's Cube solver app GUI.
 ---
 
+![](Images/app-screenshot.png)
+
 ## Files
 - The directory `Rubik'sCubeSolver` contains the main Python file, `Rubik'sCubeSolver.py`, and all of the files it is dependent on to run:
   - You can find the main Python file in [`Rubik'sCubeSolver/Rubik'sCubeSolver.py`](Rubik'sCubeSolver/Rubik'sCubeSolver.py).
