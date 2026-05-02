@@ -1,0 +1,36 @@
+name: Build macOS App
+
+on: [push]
+
+jobs:
+  build-macos:
+    runs-on: macos-latest
+    
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+
+    - name: Create venv and Install Dependencies
+      run: |
+        python3 -m venv venv
+        source venv/bin/activate
+        pip install -r requirements.txt
+        pip install pyinstaller
+
+    - name: Build macOS Application
+      run: |
+        source venv/bin/activate
+        pyinstaller --noconsole --name "MyApp" src/main.py
+
+    - name: Upload Artifact
+      uses: actions/actions/upload-artifact@v4
+      with:
+        name: macos-app
+        path: dist/CubeSolver.app
+
