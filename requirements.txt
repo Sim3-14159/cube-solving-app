@@ -1,0 +1,5 @@
+cffi==2.0.0
+future==1.0.0
+kociemba==1.2.1
+pillow==12.2.0
+pycparser==3.0
